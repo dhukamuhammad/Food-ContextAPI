@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card_length p {
+    text-align: center;
+    font-size: 50px;
+    color: #533B2F;
+    margin-top: 200px;
+}
+
+/* .parent_addtocard {
+} */
+
+.child_addtocard {
+    display: flex;
+    width: 50%;
+    height: 270px;
+    /* background-color: aqua; */
+    margin-left: 310px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0 30px rgba(5, 13, 24, 0.60);
+
+}
+
+.addtocard_img img {
+    width: 290px;
+    height: 270px;   
+}
+
+.child1_addtocard {
+    margin-left: 40px;
+}
+
+.addtocard_title p {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #765b52;
+}
+
+.addtocard_short_desc p {
+    margin-top: -12px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+.addtocard_price p {
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: -5px;
+    color: #765b52;
+}
+
+.addtocard_btn {
+    display: flex;
+    gap: 30px;
+
+}
+
+.addtocard_buy button {
+    padding: 5px 25px;
+    border-radius: 20px;
+    border: 2px solid #765b52;
+    color: #765b52;
+    background-color: white;
+}
+
+.addtocard_remove button {
+    padding: 5px 25px;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    background-color: #765b52;
+}
